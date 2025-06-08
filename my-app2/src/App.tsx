@@ -7,7 +7,7 @@ import Layout from "./Pages/Layout";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/test-react">
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route path='/quiz' element={<Quiz />}/>
