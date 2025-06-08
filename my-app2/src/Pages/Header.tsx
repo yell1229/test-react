@@ -6,6 +6,7 @@ export default function Header() {
             <ul>
                 <li><Link to="/counter">Counter</Link> </li>
                 <li><Link to="/quiz">Quiz</Link></li>
+                <li><Link to="/todolist">Todolist</Link></li>
             </ul>
         </header>
     );
